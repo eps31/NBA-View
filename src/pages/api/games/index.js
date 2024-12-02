@@ -1,5 +1,6 @@
 import connectDB from '../../../app/lib/mongodb';
 import { Game } from '../../../app/models/Game';
+import { Team } from '../../../app/models/Team';
 
 export default async function handler(req, res) {
   await connectDB();
